@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 5em;
+}
+
+.logo{
+    height: 5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.title{
+    margin: 1rem;
+
+}
+
+.title h1{
+    font-size: 30px;
+}
+
+
+.card{
+    display: flex;
+    justify-content: start;
+    flex-flow: row nowrap;
+    
+}
+.card-item{
+    width: 178px;
+    min-width: 150px;
+    height: 178px;
+    min-height: 150px;
+    top: 191px;
+    left: 134px;
+    border-radius: 20px;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    padding-top: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-shadow: 5px 5px 10px 0.5px;
+}
+
+.card-child{
+    width: 209px;
+    height: 54px;
+    min-width: 200px;
+    min-height: 54px;
+    background: #FAE3CD;
+    box-shadow: 0px 2px 10px #E5E5E5;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+.card-title{
+  font-size: small;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.numcount{
+    width: 30px;
+    height: 30px;
+    background: #FFC084;
+    border-radius: 100%;
+    text-align: center;
+    padding: 0.4rem;
+    
+}
+.desc{
+    width: 209px;
+    min-width: 209px;
+    border-left: 5px solid green;
+    padding: 0 0.7rem;
+    margin-right:2rem ;
+    margin-bottom: 1rem;
+    text-align: start;
+}
+
+.desc span{
+    font-size: 10px;
+}
+
+.detail{
+    display: flex;
+}
+#card1{
+    background-color:#F8F8F8;
+}
+#card3{
+    background-color: #EAE7F8;
+}
+#card4{
+    background-color: #D4EEE2;
+} 
+
+#card5{
+    background-color: #FAE3CD;
+} 
+
+#card6{
+    background-color: #B71C1C,20%;
+} 
+
+#num1{
+    background-color: #E4E7EB;
+}
+
+#num3{
+    background-color: #37248F;
+    color: #ffffff;
+}
+
+#num4{
+    background-color: #246527;
+    color: #ffffff;
+
+}
+#num5{
+    background-color: #FFEE56;
+}
+#num6{
+    background-color: #B71C1C;
+    color: #ffffff;
+
+}
