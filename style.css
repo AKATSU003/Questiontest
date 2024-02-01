@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 5em;
+}
+
+.logo{
+    height: 5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.title{
+    margin: 1rem;
+
+}
+
+.title h1{
+    font-size: 30px;
+}
+
+
+.card{
+    display: flex;
+    justify-content: start;
+    
+}
+.card-item{
+    width: 178px;
+    height: 178px;
+    top: 191px;
+    left: 134px;
+    border-radius: 20px;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    padding-top: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-shadow: 5px 5px 10px 0.5px;
+}
+
+
+
